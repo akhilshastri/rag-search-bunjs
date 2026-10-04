@@ -1,0 +1,25 @@
+{
+  "name": "docs",
+  "private": true,
+  "scripts": {
+    "dev": "rsbuild dev",
+    "build": "rsbuild build"
+  },
+  "dependencies": {
+    "@demo/ui": "workspace:*",
+    "@module-federation/enhanced": "latest",
+    "@monaco-editor/react": "^4.7.0",
+    "monaco-editor": "latest",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "sucrase": "^3.35.0"
+  },
+  "devDependencies": {
+    "@module-federation/rsbuild-plugin": "latest",
+    "@rsbuild/core": "latest",
+    "@rsbuild/plugin-react": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "playground-demo",
+  "private": true,
+  "workspaces": ["packages/*", "apps/*"],
+  "scripts": {
+    "dev": "bun run --parallel --filter './apps/*' dev",
+    "build": "bun run --filter './apps/*' build",
+    "test": "bun test --timeout 90000 tests"
+  },
+  "devDependencies": {
+    "playwright": "^1.63.0"
+  }
+}

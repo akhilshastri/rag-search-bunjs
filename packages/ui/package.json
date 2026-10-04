@@ -1,0 +1,7 @@
+{
+  "name": "@demo/ui",
+  "version": "0.1.0",
+  "main": "src/index.ts",
+  "peerDependencies": { "react": "^19.0.0" },
+  "devDependencies": { "@types/react": "latest" }
+}
